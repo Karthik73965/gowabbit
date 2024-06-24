@@ -1,0 +1,14 @@
+.btn:hover{
+  .arrrow{
+    rotate: -90deg;
+  }
+}
+.smooth-animation {
+  transition: margin 1s ease; 
+}
+.top-animation {
+  transition:  padding  1s ease; 
+}
+body{
+  overflow-x: hidden;
+}
