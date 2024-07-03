@@ -1,7 +1,6 @@
 import MediaHeroLeft from '@/components/Services/MediaHeroLeft'
 import MediaAcc from '@/components/Services/MediaAcc'
 import SecondFotter from '@/components/SecondFotter'
-import ThirdFotter from '@/components/ThirdFotter'
 type Props = {}
 
 export default function TechincalServices({}: Props) {
@@ -12,7 +11,7 @@ export default function TechincalServices({}: Props) {
     <MediaAcc/>
     </section>
     <SecondFotter/>
-    <ThirdFotter/>
+    {/* <ThirdFotter/> */}
     </>
   )
 }

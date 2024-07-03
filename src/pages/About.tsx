@@ -1,4 +1,3 @@
-import ThirdFotter from "@/components/ThirdFotter"
 import AboutKeywords from "@/components/AboutKeywords"
 type Props = {}
 
@@ -19,7 +18,7 @@ export default function About({}: Props) {
     </section>
     <AboutKeywords/>
    </main>
-   <ThirdFotter/>
+   {/* <ThirdFotter/> */}
    </>
   )
 }

@@ -84,7 +84,7 @@ export default function Navbar({ }: Props) {
                 </ul>
             </div>
             <div className=" text-xl pt-4 btn ">
-                < span className="border-2  gap-x-2 w-[150px] hidden md:flex bg-white hover:bg-black hover:text-white ease-in-out duration-300 border-black rounded-full py-1 px-2">
+                < span className="border-2  gap-x-2 w-[155px] hidden md:flex bg-white hover:bg-black hover:text-white ease-in-out duration-300 border-black rounded-full py-1 px-2">
                     Get Started  <MdOutlineArrowOutward className="m-1 ml-0 arrrow ease-in" />
                 </span>
             </div>

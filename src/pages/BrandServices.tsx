@@ -1,6 +1,5 @@
 import BrandAcc from '@/components/Services/BrandAcc'
 import SecondFotter from '@/components/SecondFotter'
-import ThirdFotter from '@/components/ThirdFotter'
 import BrandHeroLeft from '@/components/Services/BrandHeroLeft'
 type Props = {}
 
@@ -12,7 +11,7 @@ export default function TechincalServices({}: Props) {
     <BrandAcc/>
     </section>
     <SecondFotter/>
-    <ThirdFotter/>
+    {/* <ThirdFotter/> */}
     </>
   )
 }

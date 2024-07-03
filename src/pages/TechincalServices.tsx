@@ -1,7 +1,6 @@
 import HeroLeft from '@/components/Services/HeroLeft'
 import TechAcc from '@/components/Services/TechAcc'
 import SecondFotter from '@/components/SecondFotter'
-import ThirdFotter from '@/components/ThirdFotter'
 type Props = {}
 
 export default function TechincalServices({}: Props) {
@@ -12,7 +11,7 @@ export default function TechincalServices({}: Props) {
     <TechAcc/>
     </section>
     <SecondFotter/>
-    <ThirdFotter/>
+    {/* <ThirdFotter/> */}
     </>
   )
 }

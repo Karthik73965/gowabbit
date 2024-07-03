@@ -3,7 +3,7 @@ type Props = {}
 export default function s({ }: Props) {
     return (
         <>
-          <main className="flex ml-[3vw] ">
+          <main className="flex  ml-[3vw] ">
           <section className="md:w-[8vw] w-[20vw] mt-[72vh]">
                 <section className="grid -rotate-90">
                     <div className="">
@@ -14,7 +14,7 @@ export default function s({ }: Props) {
                 </section>
                 <div className="w-[100px] text-xl mt-14 ml-[1vw] bg-black rounded-full hover:bg-white border-2 border-black  "> &nbsp;  </div>
             </section>
-            <section className="w-[8vw] mt-[35vh]">
+            <section className="w-[8vw] -ml-10 mt-[35vh]">
             <section className="grid -rotate-90">
                     <div className="">
                         <div className="font-bold  text-5xl  ">

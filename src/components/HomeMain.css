@@ -1,0 +1,37 @@
+
+
+.start {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    left: var(--x);
+    top: var(--y);
+    animation: x 1s, y 0.5s;
+    animation-timing-function: cubic-bezier(.5, -800, .5, 800);
+    animation-iteration-count: infinite;
+}
+
+@keyframes x {
+    to {
+        left: calc(var(--x) + 1px);
+    }
+}
+
+@keyframes y {
+    to {
+        top: calc(var(--y) + 0.2px);
+    }
+}
+
+
+/**/
+d {
+    position: fixed;
+    height: 4px;
+    width: 4px;
+    background: #222;
+    border-radius: 50%
+}
+
